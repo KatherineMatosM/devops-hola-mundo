@@ -5,6 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>DevOps Hola Mundo</title>
   <link rel="stylesheet" href="/css/style.css" />
+
+  <!-- Font Awesome para iconos -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+  />
 </head>
 <body>
   <main class="container">
@@ -22,33 +28,36 @@
 
       <div class="tech-grid">
         <div class="tech-card">
-          <span class="icon">🌸</span>
+          <span class="icon"><i class="fa-solid fa-server"></i></span>
           <h3>Backend</h3>
           <p>Node.js + Express</p>
         </div>
 
         <div class="tech-card">
-          <span class="icon">💗</span>
+          <span class="icon"><i class="fa-brands fa-docker"></i></span>
           <h3>Contenedor</h3>
           <p>Docker</p>
         </div>
 
         <div class="tech-card">
-          <span class="icon">🎀</span>
+          <span class="icon"><i class="fa-solid fa-box-archive"></i></span>
           <h3>Registro</h3>
           <p>Docker Hub</p>
         </div>
 
         <div class="tech-card">
-          <span class="icon">☁️</span>
+          <span class="icon"><i class="fa-solid fa-cloud"></i></span>
           <h3>Deploy</h3>
           <p>Render + CI/CD</p>
         </div>
       </div>
 
-      <button id="statusBtn" class="status-btn">Ver estado del proyecto</button>
+      <button id="statusBtn" class="status-btn">
+        <i class="fa-solid fa-circle-check"></i> Ver estado del proyecto
+      </button>
 
       <div id="statusMessage" class="status-message hidden">
+        <i class="fa-solid fa-check-circle"></i>
         Despliegue automático configurado correctamente.
       </div>
     </section>
