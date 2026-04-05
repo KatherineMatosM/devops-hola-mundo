@@ -1,0 +1,15 @@
+{
+  "name": "devops-hola-mundo",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Hola mundo con Node.js, Express y Docker",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
